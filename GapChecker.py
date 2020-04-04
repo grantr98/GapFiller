@@ -1,7 +1,5 @@
 import os
 import pathlib
-import mutagen
-
 
 def gapfinder(array, path, threshold):  # parses through file to count gaps of "00"
     found = []
